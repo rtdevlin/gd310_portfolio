@@ -14,11 +14,19 @@
 .main {
   background-color: #000066;
   box-shadow: 0 0 10px #000000;
-  height: 100%;
+  height: 99%;
   padding: 0;
+  position: relative;
 }
 .nav {
   background-color: #B9323B;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 
 .nav a {
@@ -28,9 +36,7 @@
 .content {
   background-color: #FFFFFF;
   padding: 5% 0;
-  margin-right: 2%;
-  margin-left: 2%;
-  margin-top: 5%;
+  margin: 5% 2%;
   height: 80%;
   box-shadow: 0 0 10px #000000;
 }
